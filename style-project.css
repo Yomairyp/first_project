@@ -1,0 +1,116 @@
+
+
+
+/* whole page*/
+
+
+
+/* top of page*/
+h6, h3{
+  color:white;
+}
+h6 {
+  padding-left: 15px;
+}
+.top-of-page {
+  background: #2b2e36;
+  width: 100%;
+  height: 100%;
+}
+
+.whole-page {
+  background-color:rgb(240,240,240)
+
+}
+
+.top-left{
+
+}
+
+.nav {
+
+  padding: 15px;
+  list-style-type: none;
+  text-align: left;
+
+}
+
+.nav li {
+
+  display: inline-flex;
+  font-size: px 25
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50px;
+}
+
+.nav li a {
+  color: white;
+  text-decoration:none;
+}
+
+.flex-container{
+  display: inline
+  flex-direction:column;
+  width: 400px;
+  height: 30px;
+}
+
+
+.flex-container ul  div li {
+  border: 20px solid transparent
+}
+.right {
+  position:absolute;
+  right: 40px;
+  top: 80px;
+}
+
+  /*body of page*/
+
+
+.first-container {
+  /* float: left; */
+  /* width:15%; */
+  /* height: 200px;
+  margin: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width:33.3%;
+  margin: 15px;
+  flex: 1 250px;
+  padding:0;
+  object-fit: contain;
+  display: inline-block;
+}
+img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.image-container a {
+  text-decoration: none;
+  color:gray;
+  padding: 15px;
+
+}
+.info-container p {
+  padding-left: 20px
+}
+
+.info-container {
+  background-color: white;
+  padding:0px;
+
+}
+
+.info-container strong{
+  padding-left: 20px;
+  /* color: gray */
+}
+
+.top-of-page { background-color: }
