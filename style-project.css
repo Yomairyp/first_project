@@ -1,9 +1,7 @@
 
 
 
-/* whole page*/
-
-
+/* whole page */
 
 /* top of page*/
 h6, h3{
@@ -18,10 +16,6 @@ h6 {
   height: 100%;
 }
 
-.whole-page {
-  background-color:rgb(240,240,240)
-
-}
 
 .top-left{
 
@@ -56,7 +50,6 @@ h6 {
   height: 30px;
 }
 
-
 .flex-container ul  div li {
   border: 20px solid transparent
 }
@@ -65,52 +58,149 @@ h6 {
   right: 40px;
   top: 80px;
 }
+/* nav bar ends here */
+
+
+
+.flex-container-columns-holder {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(240,240,240);
+/* background-color: #f1f1f1;
+ margin: 10px;
+ padding: 20px; */
+
+
+}
+/* done done */
+/* ............................................... */
+
 
   /*body of page*/
 
+.column{
 
-.first-container {
-  /* float: left; */
-  /* width:15%; */
-  /* height: 200px;
-  margin: 10px; */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.image-container {
-  width:33.3%;
-  margin: 15px;
-  flex: 1 250px;
-  padding:0;
-  object-fit: contain;
-  display: inline-block;
-}
-img {
-  width: 100%;
-  height: 100%;
 
 }
 
-.image-container a {
-  text-decoration: none;
-  color:gray;
-  padding: 15px;
+
+.column div {
+
 
 }
-.info-container p {
-  padding-left: 20px
+
+
+/*........ size of picture in the div.............. */
+
+  img {
+   width: 100%;
+   height: 100%;
+ }
+
+ /*......... whats holds the image together.... */
+
+      .image-container {
+
+          margin: 15px;
+          flex: 1 250px;
+          padding:0;
+          object-fit: contain;
+          display: inline-block;
+        }
+
+
+
+
+
+
+/* ...........bottom og picture info.........   */
+  .info-container p {
+
+    /* padding:0px; */
+    top 40%;
+    padding-left: 20px;
+    color: gray
+
 }
 
+
+/* ....... subtitle under pictures .......... */
 .info-container {
-  background-color: white;
-  padding:0px;
+background-color: white;
+
+
+
 
 }
 
-.info-container strong{
-  padding-left: 20px;
-  /* color: gray */
+  .info-container strong{
+    padding-left: 20px;
+    color: gray;
 }
 
-.top-of-page { background-color: }
+
+info-container strong p{
+  margin-bottom:  0px
+}
+
+/* ........right bar/ nav ................ */
+
+
+  .right-container ul{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    list-style-type: none;
+    text-align: left;
+    border: 20px solid transparent
+
+  }
+
+
+  .column-right {
+
+    background-color: #D3D3D3 ;
+  }
+
+
+
+
+
+  .right-container ul li a {
+    color: white;
+    text-decoration:none;
+  }
+
+
+
+
+
+/*
+trashhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+............................................. */
+
+
+
+
+
+  /* display: flex;
+ flex-direction: column;
+ color: green;
+ flex: 1; */
+
+
+
+
+
+
+/*{
+  /*width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px; */
+
+
+
+
+}
